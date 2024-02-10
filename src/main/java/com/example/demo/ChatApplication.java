@@ -9,7 +9,7 @@ import com.google.cloud.spring.autoconfigure.pubsub.GcpPubSubAutoConfiguration;
 @EnableAutoConfiguration(exclude = {GcpPubSubAutoConfiguration.class})
 public class ChatApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         SpringApplication.run(ChatApplication.class, args);
     }
 }
